@@ -2,7 +2,7 @@ package hu.erikabirtha;
 
 import java.sql.*;
 
-public class StorageTollSystem {
+public class StorageTollSystem implements StorageGatewayType {
     //file mentés
 
     private Connection connectSqlLite() {
@@ -17,16 +17,33 @@ public class StorageTollSystem {
         }
         return connection;
     }
-    public void findVehicleByRegistrationNumber(String registration_number) {
-        String sql = "SELECT registration_number, valid_from, valid_to FROM toll_system";
+    public void findVehicleByRegistrationNumber(String registrationNumber) {
+        String sql = "SELECT registration_number, valid_from, valid_to FROM toll_system_dg_tmp";
 
         try {
             Connection connection = this.connectSqlLite();
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
+            while (resultSet.next()){
+                System.out.println(resultSet.getString(2 )+ "ez az adatbázis");
+            }
         } catch (SQLException e) {
             e.printStackTrace();
             throw new RuntimeException(e);
         }
+        //lista
+        //arrayList list
+        //list.put
+        //list visszadása
+        System.out.println(registrationNumber + "Storageban lévő adat");
+
+    }
+
+    public VignetteEntity loadItem(String registrationNumber) {
+        return findVehicleByRegistrationNumber();
+    }
+
+    private VignetteEntity findVehicleByRegistrationNumber() {
+        return null;
     }
 }

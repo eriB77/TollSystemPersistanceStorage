@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a09d358-bdad-45f3-8b1e-fd8bd0ef25d5" name="Changes" comment="basic settings">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/StorageTollSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/StorageTollSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tollsystem.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/tollsystem.sqlite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <updated>1674551135124</updated>
       <workItem from="1674551136309" duration="3654000" />
       <workItem from="1674561787220" duration="4101000" />
-      <workItem from="1674632224825" duration="9483000" />
+      <workItem from="1674632224825" duration="18865000" />
     </task>
     <task id="LOCAL-00001" summary="basic settings">
       <created>1674577326657</created>
@@ -80,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674577326657</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="basic settings">
+      <created>1674682318860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674682318860</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
